@@ -1,0 +1,74 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "site"
+    label: "Portfolio content"
+    files:
+      - file: "content.json"
+        label: "Website content"
+        name: "content"
+        fields:
+          - { label: "Brand / name shown in top-left", name: "brand", widget: "string" }
+
+          - label: "Hero section (top of page)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Small tag above headline", name: "eyebrow", widget: "string" }
+              - { label: "Big headline", name: "title", widget: "text" }
+              - { label: "Subtitle paragraph", name: "subtitle", widget: "text" }
+
+          - label: "Projects (Selected work section)"
+            name: "projects"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Project title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Duration (e.g. 03:42)", name: "duration", widget: "string" }
+              - { label: "Category label (e.g. Narrative, Commercial)", name: "track", widget: "string" }
+              - label: "Card color"
+                name: "color"
+                widget: "select"
+                options: ["magenta", "cyan", "amber"]
+
+          - label: "Services (What's on the timeline section)"
+            name: "services"
+            widget: "list"
+            summary: "{{title}}"
+            fields:
+              - { label: "Short label (e.g. Cut, Grade)", name: "label", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Color"
+                name: "color"
+                widget: "select"
+                options: ["magenta", "cyan", "amber"]
+
+          - label: "About section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Bio paragraph 1", name: "bio1", widget: "text" }
+              - { label: "Bio paragraph 2", name: "bio2", widget: "text" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                summary: "{{number}} — {{label}}"
+                fields:
+                  - { label: "Number (e.g. 120+)", name: "number", widget: "string" }
+                  - { label: "Label (e.g. Projects delivered)", name: "label", widget: "string" }
+
+          - label: "Contact section"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Email address", name: "email", widget: "string" }
+              - { label: "Instagram link", name: "instagram", widget: "string" }
+              - { label: "Vimeo link", name: "vimeo", widget: "string" }
+              - { label: "LinkedIn link", name: "linkedin", widget: "string" }
