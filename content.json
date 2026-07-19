@@ -1,7 +1,7 @@
 {
   "brand": "Editorhashmi",
   "hero": {
-    "eyebrow": "Now editing — showreel 2026",
+    "eyebrow": "Now editing",
     "title": "Every cut tells a story. Every frame earns its place.",
     "subtitle": "Video editor specializing in narrative pacing, color, and sound design for brands, music artists, and filmmakers who want their footage to actually move people."
   },
@@ -11,7 +11,7 @@
       "description": "Short film edit — built the third act around a single silent take to let the performance breathe.",
       "duration": "03:42",
       "track": "Narrative",
-      "color": "magenta"
+      "color": "amber"
     },
     {
       "title": "Solace Skincare — Launch",
