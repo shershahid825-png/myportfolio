@@ -1,31 +1,96 @@
 {
-  "brand": "Cut/Room",
+  "brand": "Editorhashmi",
   "hero": {
     "eyebrow": "Now editing — showreel 2026",
     "title": "Every cut tells a story. Every frame earns its place.",
     "subtitle": "Video editor specializing in narrative pacing, color, and sound design for brands, music artists, and filmmakers who want their footage to actually move people."
   },
   "projects": [
-    { "title": "Midnight Runners", "description": "Short film edit — built the third act around a single silent take to let the performance breathe.", "duration": "03:42", "track": "Narrative", "color": "magenta" },
-    { "title": "Solace Skincare — Launch", "description": "30-second spot cut for paid social, three aspect ratios, delivered on a 48-hour turnaround.", "duration": "00:31", "track": "Commercial", "color": "cyan" },
-    { "title": "Nova Kline — \"Static\"", "description": "Beat-synced performance cuts layered with 16mm textures pulled from the artist's archive footage.", "duration": "02:58", "track": "Music video", "color": "amber" },
-    { "title": "Concrete Gardens", "description": "Verite-style assembly from 40+ hours of footage, structured around three community voices.", "duration": "11:20", "track": "Documentary", "color": "cyan" },
-    { "title": "Northfield Coffee Co.", "description": "Founder story edit pairing handheld b-roll with a warm, grain-heavy color pass.", "duration": "01:45", "track": "Brand film", "color": "magenta" },
-    { "title": "Reframe Festival 2025", "description": "Same-day highlight reel cut and delivered before the closing night party started.", "duration": "04:10", "track": "Event recap", "color": "amber" }
+    {
+      "title": "Midnight Runners",
+      "description": "Short film edit — built the third act around a single silent take to let the performance breathe.",
+      "duration": "03:42",
+      "track": "Narrative",
+      "color": "magenta"
+    },
+    {
+      "title": "Solace Skincare — Launch",
+      "description": "30-second spot cut for paid social, three aspect ratios, delivered on a 48-hour turnaround.",
+      "duration": "00:31",
+      "track": "Commercial",
+      "color": "cyan"
+    },
+    {
+      "title": "Nova Kline — \"Static\"",
+      "description": "Beat-synced performance cuts layered with 16mm textures pulled from the artist's archive footage.",
+      "duration": "02:58",
+      "track": "Music video",
+      "color": "amber"
+    },
+    {
+      "title": "Concrete Gardens",
+      "description": "Verite-style assembly from 40+ hours of footage, structured around three community voices.",
+      "duration": "11:20",
+      "track": "Documentary",
+      "color": "cyan"
+    },
+    {
+      "title": "Northfield Coffee Co.",
+      "description": "Founder story edit pairing handheld b-roll with a warm, grain-heavy color pass.",
+      "duration": "01:45",
+      "track": "Brand film",
+      "color": "magenta"
+    },
+    {
+      "title": "Reframe Festival 2025",
+      "description": "Same-day highlight reel cut and delivered before the closing night party started.",
+      "duration": "04:10",
+      "track": "Event recap",
+      "color": "amber"
+    }
   ],
   "services": [
-    { "label": "Cut", "title": "Editing & assembly", "description": "Story structure, pacing, and rhythm — from raw footage to a locked cut.", "color": "magenta" },
-    { "label": "Grade", "title": "Color grading", "description": "Custom looks built per project, from naturalistic to stylized.", "color": "cyan" },
-    { "label": "Mix", "title": "Sound design & mix", "description": "Dialogue cleanup, foley, and music sync to make the picture land.", "color": "amber" },
-    { "label": "Motion", "title": "Titles & motion graphics", "description": "Lower thirds, kinetic type, and light VFX for polish where it counts.", "color": "magenta" }
+    {
+      "label": "Cut",
+      "title": "Editing & assembly",
+      "description": "Story structure, pacing, and rhythm — from raw footage to a locked cut.",
+      "color": "magenta"
+    },
+    {
+      "label": "Grade",
+      "title": "Color grading",
+      "description": "Custom looks built per project, from naturalistic to stylized.",
+      "color": "cyan"
+    },
+    {
+      "label": "Mix",
+      "title": "Sound design & mix",
+      "description": "Dialogue cleanup, foley, and music sync to make the picture land.",
+      "color": "amber"
+    },
+    {
+      "label": "Motion",
+      "title": "Titles & motion graphics",
+      "description": "Lower thirds, kinetic type, and light VFX for polish where it counts.",
+      "color": "magenta"
+    }
   ],
   "about": {
     "bio1": "I started cutting skate videos on a laptop that overheated every twenty minutes, and never really stopped. These days the footage is better, but the job is the same: find the story hiding in the timeline and get out of its way.",
     "bio2": "I work closely with directors and founders from rough assembly through final delivery, and I care as much about a clean project file as I do about a good cut.",
     "stats": [
-      { "number": "120+", "label": "Projects delivered" },
-      { "number": "8", "label": "Years editing" },
-      { "number": "6", "label": "Industry awards" }
+      {
+        "number": "120+",
+        "label": "Projects delivered"
+      },
+      {
+        "number": "8",
+        "label": "Years editing"
+      },
+      {
+        "number": "6",
+        "label": "Industry awards"
+      }
     ]
   },
   "contact": {
